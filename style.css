@@ -1,1 +1,33 @@
-
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DR1WEB</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="nav-bar">
+      <div class="hamburger" onclick="toggleNav()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <h1>DR1WEB</h1>
+    </div>
+    <div class="search-container">
+      <input id="searchInput" type="text" placeholder="Search or type URL" />
+      <button onclick="performSearch()">🔍</button>
+    </div>
+  </header>  <div id="navMenu" class="hidden">
+    <ul>
+      <li><label><input type="checkbox" /> Show Clock</label></li>
+      <li><label><input type="checkbox" /> Show Weather</label></li>
+      <li><label><input type="checkbox" /> Show Time</label></li>
+      <li><label><input type="checkbox" /> Gaming Mode</label></li>
+      <li class="link">
+        <a href="https://www.remidernova.nichesite.org" target="_blank">Visit ReminderNova</a>
+      </li>
+    </ul>
+  </div>  <script src="script.js"></script></body>
+</html>
